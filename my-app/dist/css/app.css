@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 5px;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -30,4 +31,33 @@ nav button img {
 nav a {
   text-decoration: none;
   color: black;
+}
+
+.jumbotron {
+  display: flex;
+}
+.jumbotron .jumbo-left, .jumbotron .jumbo-right {
+  width: 50%;
+}
+.jumbotron h1 {
+  font-size: 70px;
+}
+.jumbotron span {
+  font-size: 33px;
+}
+.jumbotron img {
+  width: 100%;
+}
+.jumbotron .bottoni {
+  margin-top: 10px;
+}
+.jumbotron .bottoni button {
+  border-radius: 5px;
+  height: 35px;
+  background-color: #2c4792;
+  color: white;
+}
+.jumbotron .bottoni button img {
+  height: 20px;
+  width: 25px;
 }

@@ -1,0 +1,28 @@
+.jumbotron{
+    display: flex;
+    .jumbo-left, .jumbo-right{
+        width:50%;
+    }
+    h1{
+        font-size: 70px;
+    }
+    span{
+        font-size: 33px;
+    }
+    img{
+        width:100%;
+    }
+    .bottoni{
+        margin-top: 10px;
+        button{
+            border-radius: 5px;
+            height: 35px;
+            background-color: $button-color;
+            color: white;
+            img{
+                height: 20px;
+                width: $logo-bottone
+            }
+        }
+    }
+}
