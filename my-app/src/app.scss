@@ -1,5 +1,3 @@
-$primary: #11bbcc;
-
-body{
-    background-color: $primary;
-}
+@import "./src/partials/variables.scss";
+@import "./src/partials/common.scss";
+@import "./src/partials/header.scss";
