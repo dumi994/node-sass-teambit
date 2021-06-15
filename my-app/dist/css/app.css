@@ -21,6 +21,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid grey;
+  /* .nav-item{
+      ul{
+          img{
+              width:20px
+          }
+      }
+  } */
 }
 nav button {
   /* display: flex;  */
@@ -58,6 +65,6 @@ nav a {
   color: white;
 }
 .jumbotron .bottoni button img {
-  height: 20px;
+  /* height: 20px; */
   width: 25px;
 }
