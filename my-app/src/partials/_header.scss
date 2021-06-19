@@ -2,6 +2,7 @@ header{
     width:100%;
     height: 100px;
     .jumbotron{
+        margin-top: 3.5rem;
         display: flex;
         .jumbo-left, .jumbo-right{
             width:50%;
@@ -11,9 +12,14 @@ header{
         }
         span{
             font-size: 33px;
+            padding-top:15px;
+
         }
         img{
             width:100%;
+        }
+        p{
+            padding-top:15px;
         }
         .bottoni{
             margin-top: 10px;

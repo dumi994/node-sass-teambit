@@ -15,5 +15,10 @@ main{
             @include card-rules
         }
     }
+    .jumbo2{
+        justify-content: center;
+        padding: 40px 0 70px 0;
+        border-bottom: 1px solid grey;
+    }
 }
 

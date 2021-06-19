@@ -13,6 +13,9 @@
 .text-center{
     text-align: center;
 }
+
+/////// MIXINS
+/* TITOLO */
 @mixin title-rules{
     text-align: center;
     padding: 3rem 10px;
@@ -21,6 +24,8 @@
     line-height: 55px;
     font-weight: 600;
 }
+
+/* CARDS */
 @mixin card-rules{
     width:400px;
     height: 250px;
