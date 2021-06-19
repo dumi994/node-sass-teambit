@@ -1,11 +1,19 @@
 main{
-    width:100%;
-    /* height:1500px; */
-    background-color: #FFE7D2;  
+    .colored-cont{
+        width:100%;
+        /* height:1500px; */
+        background-color: #FFE7D2;
+    }  
     .main-title{
 
         h1{
             @include title-rules;
+            padding:60px;
+
+        }
+        h2{
+            @include title-rules;
+            padding:60px;
         }
     }
     .card-section{
@@ -15,10 +23,60 @@ main{
             @include card-rules
         }
     }
+
+    /* JUMBO */
     .jumbo2{
-        justify-content: center;
-        padding: 40px 0 70px 0;
-        border-bottom: 1px solid grey;
+        @include jumbo;
     }
+    .jumbo3{
+        @include jumbo;
+        border-bottom: none;
+        h2{
+            text-align: center;
+            font-weight: 800;
+            padding-top: 60px;
+        }
+    }
+    /* Feedback */
+    .feedback{
+        justify-content: center;
+        padding:20px;
+        margin:10px;
+        .feed-left{
+            width:65%;
+            
+            img{
+                width:90%;
+                height:90%;
+                box-shadow: 10px 10px 10px lightgray;
+            }
+
+        }
+        .feed-right{
+            padding:0 100px 0 20px;
+            width:35%;
+            h2{
+                font-size: 3rem;
+                font-weight: 800;
+                padding-bottom: 20px;
+            }
+            p{
+                padding-right: 100px;
+                margin:20px 0;
+                font-size: 2rem;
+                padding: 20px 0;
+
+            }
+            a{
+                padding: 20px 0;
+
+                text-decoration: none;
+                i{
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+
 }
 
